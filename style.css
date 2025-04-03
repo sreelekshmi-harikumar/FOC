@@ -1,0 +1,72 @@
+body {
+    background-color: #E6E6FA;
+    font-family: 'Courier New', Courier, monospace;
+    color: #C2185B;
+}
+
+.registration-text {
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Blinking effect using CSS animation */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+#blinking-link {
+    color: #6A0DAD;
+    font-weight: bold;
+    animation: blink 1s step-start infinite;
+    text-decoration: none;
+}
+
+.timer-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6A0DAD;
+    margin-bottom: 15px;
+}
+
+#countdown {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #FF6347;
+}
+
+#countdown div {
+    margin-bottom: 10px;
+}
+
+#countdown span {
+    font-size: 2em;  /* Make the numbers larger */
+    color: #6A0DAD;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .timer-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #countdown {
+        font-size: 1.5em;
+    }
+}
+
+

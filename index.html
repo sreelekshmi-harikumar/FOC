@@ -1,0 +1,46 @@
+<!--Design a webpage using HTML and CSS for an online bookstore. Include a title, a heading, a list of book categories, and a basic style. Another page with a user registration form with input validations must be included. The link to the page must be provided in a new registration text that blinks to catch users' attention. Display a dynamic countdown timer for an upcoming library's annual day celebrations. Publish it on GitHub Pages. and send the link as submission. along with the HTML, CSS and js files --!>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Welcome to BookBanks">
+<meta name="keywords" content="books, bookstore">
+<title>BookBank - Online Bookstore </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<h1>Welcome to BookBanks</h1>
+	<h2>The world's library at your hands</h2>
+</header>
+<main>
+<p>The available book categories are as follows</p>
+<ul>
+	<li>Young Adult</li>
+	<li>Mystery</li>
+	<li>Thriller</li>
+	<li>Contemporary fiction</li>
+	<li>Fantasy</li>
+	<li>Non-Fiction</li>
+	<li>Picture Books</li>
+	</ul>
+<div class="registration-text">
+        New Here?
+        <a href="new-registration.html" id="blinking-link">New user registration</a>
+    </div>
+<div class="timer-container">
+        <h1>Countdown to BookBank's Annual Day</h1>
+        <div id="countdown">
+            <div><span id="days">00</span> Days</div>
+            <div><span id="hours">00</span> Hours</div>
+            <div><span id="minutes">00</span> Minutes</div>
+            <div><span id="seconds">00</span> Seconds</div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</main>
+</body>
+</html>
